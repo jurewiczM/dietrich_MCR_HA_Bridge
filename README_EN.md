@@ -1,5 +1,7 @@
 # De Dietrich MCR3 → Home Assistant (MQTT Bridge)
 
+🇵🇱 [Wersja polska](README.md)
+
 Integration of **De Dietrich MCR3** (Remeha) boiler with **Home Assistant** via ESP8266 and MQTT with autodiscovery.
 
 ```
