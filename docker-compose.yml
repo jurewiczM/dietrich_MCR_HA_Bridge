@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  remeha-bridge:
+    build: .
+    container_name: remeha-bridge
+    restart: unless-stopped
+    environment:
+      - ESP_HOST=192.168.1.100    # ← change to your ESP8266 IP
+      - ESP_PORT=999
+      - MQTT_HOST=192.168.1.200   # ← change to your MQTT broker IP
+      - MQTT_PORT=1883
+      - MQTT_USER=your_user       # ← change to your MQTT username
+      - MQTT_PASS=your_password   # ← change to your MQTT password
+      - POLL_INTERVAL=5
