@@ -70,7 +70,7 @@ RJ10 kocioł            ESP8266 (Wemos D1 Mini)
 Pin 4 (GND)    ─────   GND
 Pin 3 (TXD)    ─────   D5 (GPIO14) — RX
 Pin 2 (RXD)    ─────   D6 (GPIO12) — TX
-Pin 1 (5V)              nie podłączaj!
+Pin 1 (5V)     ─────    Vin
 ```
 
 > **Uwaga:** ESP zasilamy przez USB, nie z kotła. Opcjonalnie można dodać dzielnik napięcia na linii TXD kotła → RX ESP (1kΩ + 2kΩ do GND), ale w praktyce bezpośrednie połączenie działa.
