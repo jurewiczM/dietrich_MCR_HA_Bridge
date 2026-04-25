@@ -8,7 +8,7 @@
  *   RJ10 Pin 4 (GND) → GND
  *   RJ10 Pin 3 (TXD) → D5 (GPIO14) — RX
  *   RJ10 Pin 2 (RXD) → D6 (GPIO12) — TX
- *   RJ10 Pin 1 (5V)  → do not connect
+ *   RJ10 Pin 1 (5V)  → Vin
  * 
  * Boiler communication: 9600 baud, 8N1, no inversion
  * 
