@@ -71,7 +71,7 @@ RJ10 Boiler             ESP8266 (Wemos D1 Mini)
 Pin 4 (GND)    ─────    GND
 Pin 3 (TXD)    ─────    D5 (GPIO14) — RX
 Pin 2 (RXD)    ─────    D6 (GPIO12) — TX
-Pin 1 (5V)               do not connect!
+Pin 1 (5V)     ─────    Vin
 ```
 
 > **Note:** Power the ESP via USB, not from the boiler. Optionally add a voltage divider on the boiler TXD → ESP RX line (1kΩ + 2kΩ to GND), but in practice a direct connection works fine.
