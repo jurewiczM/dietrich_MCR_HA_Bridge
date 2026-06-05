@@ -16,10 +16,10 @@ import signal
 import paho.mqtt.client as mqtt
 
 # ── Configuration ──────────────────────────────────────────────
-ESP_HOST = os.getenv("ESP_HOST", "192.168.1.100")
+ESP_HOST = os.getenv("ESP_HOST", "IP_ESP")
 ESP_PORT = int(os.getenv("ESP_PORT", "999"))
 
-MQTT_HOST = os.getenv("MQTT_HOST", "192.168.1.200")
+MQTT_HOST = os.getenv("MQTT_HOST", "IP_Broker")
 MQTT_PORT = int(os.getenv("MQTT_PORT", "1883"))
 MQTT_USER = os.getenv("MQTT_USER", "your_user")
 MQTT_PASS = os.getenv("MQTT_PASS", "your_password")
